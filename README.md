@@ -30,7 +30,7 @@
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/Mark6286/qgis-geojson-viewer.git
+   git clone https://github.com/Mark6286/geojson_viewer.git
    ```
 2. Move the folder to your QGIS plugin directory:
 
