@@ -1,0 +1,9 @@
+[general]
+name=GeoJSON Viewer
+description=Load secure HTTPS GeoJSON from a URL with auto-refresh, saved bookmarks, and manual reload
+version=1.4
+qgisMinimumVersion=3.10
+author=Rey Mark Balaod
+email=reymarkbalaod@gmail.com
+about=Secure, live GeoJSON layer loader with auto-refresh and bookmarks.
+category=Data Management
