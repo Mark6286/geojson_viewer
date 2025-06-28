@@ -2,7 +2,7 @@
 
 **GeoJSON Viewer** is a QGIS plugin that lets users load, bookmark, auto-refresh, and sync GeoJSON layers from secure HTTPS endpoints. It is ideal for real-time spatial data updates and collaborative geospatial workflows.
 
-![GeoJSON Viewer Screenshot](images/geojson-viewer-banner.png)
+![GeoJSON Viewer Screenshot](screen-shoots/installed_plugin.png)
 
 ---
 
@@ -46,7 +46,10 @@
 
 ## 📷 Screenshot
 
-![screenshot](images/screenshot.png)
+![Install from zip](screen-shoots/open_manageAndIntallPlugins.png)
+![Install from zip](screen-shoots/install_from_zip.png)
+![Install from zip](screen-shoots/setToken.png)
+![Install from zip](screen-shoots/addMaps.png)
 
 ---
 
