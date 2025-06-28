@@ -1,15 +1,87 @@
-## Geojson viewer through REST API integration
-This is a plugin for [QGIS](https://qgis.org), the open-source Geographic Information System.
-This plugin is helpful for those websites hosting their maps or vertors in MYSQL in geojson format through this application you can update the maps using qgis that then reflects to your website or database as soon as you save the changes in you QGIS.
-However you need to make REST API for you application with authentication key to make this works.
+# GeoJSON Viewer for QGIS
 
-## Requirements
-- QGIS 3.28 or higher
-- Python 3.12
-- PyQt5 or PyQt6 (depending on your QGIS version)
+**GeoJSON Viewer** is a QGIS plugin that lets users load, bookmark, auto-refresh, and sync GeoJSON layers from secure HTTPS endpoints. It is ideal for real-time spatial data updates and collaborative geospatial workflows.
 
-## Installation
-Download the zip folder. In QGIS plugins > manage and install plugins > install from zip > input the downloaded zip and install.
+![GeoJSON Viewer Screenshot](images/geojson-viewer-banner.png)
 
-## License
-This QGIS plugin is licensed under the GNU General Public License v2 (GPL-2.0).
+---
+
+## 🔧 Features
+
+* 📡 Load GeoJSON layers from secure HTTPS URLs
+* 🕒 Auto-refresh layers every N seconds
+* 🔐 Set and remember Bearer authentication tokens
+* 💾 Bookmark layers by name and reload later
+* ✍️ Track edits (added, modified, deleted features)
+* 🔄 Sync changes back to a remote backend (POST /FeatureCollection)
+
+---
+
+## 🧩 Requirements
+
+* QGIS 3.22+
+* Python 3.9+
+* Internet access to remote HTTPS GeoJSON endpoints
+
+---
+
+## 🚀 Installation
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/Mark6286/geojson_viewer.git
+   ```
+2. Move the folder to your QGIS plugin directory:
+
+   ```
+   ~/.local/share/QGIS/QGIS3/profiles/default/python/plugins/
+   ```
+3. Enable the plugin in QGIS via **Plugins → Manage and Install Plugins**.
+
+## or you can download the zip folder
+
+Open  **QGIS → Plugins → Manage and Install Plugins → install from zip**.
+
+---
+
+## 📷 Screenshot
+
+![screenshot](images/screenshot.png)
+
+---
+
+## 🔐 Authentication
+
+Bearer tokens can be optionally set per layer or saved for session reuse. Tokens are included in HTTP headers:
+
+```http
+Authorization: Bearer YOUR_TOKEN_HERE
+```
+
+---
+
+## 📁 Plugin Metadata
+
+```ini
+[general]
+name=GeoJSON Viewer
+description=View, bookmark, and sync HTTPS GeoJSON layers
+qgisMinimumVersion=3.22
+author=Rey Mark Balaod
+version=1.0
+email=reymarkbalaod@gmail.com
+```
+
+---
+
+## 📜 License
+
+This plugin is licensed under the **GNU General Public License v2 (GPLv2)**.
+
+---
+
+## 🤝 Acknowledgments
+
+This plugin uses and extends the [QGIS Python API](https://qgis.org/).
+Thanks to the QGIS community for supporting open geospatial innovation.
