@@ -1,5 +1,5 @@
 """
-geoJSON viewer
+GeoJSON viewer
 Copyright (C) 2025 [Rey Mark Balaod]
 
 This plugin is developed for QGIS (https://qgis.org), an open-source GIS platform.
