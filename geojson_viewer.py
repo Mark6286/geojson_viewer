@@ -1,3 +1,11 @@
+"""
+geoJSON viewer
+Copyright (C) 2025 [Rey Mark Balaod]
+
+This plugin is developed for QGIS (https://qgis.org), an open-source GIS platform.
+
+Licensed under the GNU General Public License v2 (GPLv2)
+"""
 from qgis.core import QgsVectorLayer, QgsProject, QgsWkbTypes, QgsEditorWidgetSetup
 from qgis.PyQt.QtWidgets import (
     QAction, QLineEdit, QDialog, QFormLayout, QPushButton, QSpinBox,
