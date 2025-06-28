@@ -39,6 +39,10 @@
    ```
 3. Enable the plugin in QGIS via **Plugins → Manage and Install Plugins**.
 
+## or you can download the zip folder
+
+Open  **QGIS → Plugins → Manage and Install Plugins → install from zip**.
+
 ---
 
 ## 📷 Screenshot
