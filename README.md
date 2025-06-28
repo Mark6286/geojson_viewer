@@ -10,3 +10,6 @@ However you need to make REST API for you application with authentication key to
 
 ## Installation
 Download the zip folder. In QGIS plugins > manage and install plugins > install from zip > input the downloaded zip and install.
+
+## License
+This QGIS plugin is licensed under the GNU General Public License v2 (GPL-2.0).
