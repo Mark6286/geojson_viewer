@@ -40,7 +40,7 @@
 3. Enable the plugin in QGIS via **Plugins → Manage and Install Plugins**.
 
 ## or you can download the zip folder
-1. after downloading the zip extract it then erase extensions like "v1.0.0" then zip it again.
+1. after downloading the zip extract it then erase extensions like "v1.0.0" in the folder name then zip it again.
 2. Open  **QGIS → Plugins → Manage and Install Plugins → install from zip**.
 ---
 
